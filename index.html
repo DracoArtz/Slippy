@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Slippy Maze</title>
+   
+</head>
+<body>
+    <img src="images/slippy.png" style="display:none;" id="slippy">
+    <img src="images/wood_wall.jpg" style="display:none;" id="wall">
+    <img src="images/mouse.png" style="display:none;" id="mouse">
+    <div>
+        <h2>Controls | <span>Use the w,a,s and d or the arrow keys to move the avatar.</span></h2>
+        <h2>Objective | <span>Eat 5 mice.</span></h2>
+        <canvas width="800" height="500"></canvas>
+    </div>
+    <!--controls.js contains the keyboard events and variables for movement-->
+    <script src="js/controls.js"></script>
+    <!--GameObject.js contains the game object class we will use or all objects in the game-->
+    <script src="js/GameObject.js"></script>
+    <!--game.js is the game-->
+    <script src="js/game.js"></script>
+</body>
+</html>
